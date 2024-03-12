@@ -1,0 +1,187 @@
+/* Media.css */
+
+.main-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  top: -80px;
+  left: -50px;
+}
+
+.main {
+  width: 150px;
+  height: 150px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Set z-index to place it above other components */
+}
+
+.main-centered-img {
+  position: absolute;
+  width: 50px; /* Adjusted size for the circular images */
+  height: 50px;
+  background-color: #61dafb;
+  border-radius: 50%;
+  transform-origin: 50% 100%;
+}
+
+/* Adjust the positioning for mobile */
+.main-centered-img1 {
+  transform: rotate(0deg) translate(calc(50vw - 100px)) rotate(0deg);
+}
+.main-centered-img2 {
+  transform: rotate(45deg) translate(calc(50vw - 100px)) rotate(-45deg);
+}
+.main-centered-img3 {
+  transform: rotate(90deg) translate(calc(50vw - 100px)) rotate(-90deg);
+}
+.main-centered-img4 {
+  transform: rotate(135deg) translate(calc(50vw - 100px)) rotate(-135deg);
+}
+.main-centered-img5 {
+  transform: rotate(180deg) translate(calc(50vw - 100px)) rotate(-180deg);
+}
+.main-centered-img6 {
+  transform: rotate(225deg) translate(calc(50vw - 100px)) rotate(-225deg);
+}
+.main-centered-img7 {
+  transform: rotate(270deg) translate(calc(50vw - 100px)) rotate(-270deg);
+}
+.main-centered-img8 {
+  transform: rotate(315deg) translate(calc(50vw - 100px)) rotate(-315deg);
+}
+.main-centered-img9 {
+  transform: rotate(360deg) translate(calc(50vw - 100px)) rotate(-360deg);
+}
+
+/* Adjust sizes for smaller screens */
+@media (max-width: 767px) {
+  .main {
+    width: 80px;
+    height: 80px;
+  }
+
+  .main-centered-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* Adjust the positioning for mobile */
+  .main-centered-img1 {
+    transform: rotate(0deg) translate(calc(50vw - 50px)) rotate(0deg);
+  }
+  .main-centered-img2 {
+    transform: rotate(45deg) translate(calc(50vw - 50px)) rotate(-45deg);
+  }
+  .main-centered-img3 {
+    transform: rotate(90deg) translate(calc(50vw - 50px)) rotate(-90deg);
+  }
+  .main-centered-img4 {
+    transform: rotate(135deg) translate(calc(50vw - 50px)) rotate(-135deg);
+  }
+  .main-centered-img5 {
+    transform: rotate(180deg) translate(calc(50vw - 50px)) rotate(-180deg);
+  }
+  .main-centered-img6 {
+    transform: rotate(225deg) translate(calc(50vw - 50px)) rotate(-225deg);
+  }
+  .main-centered-img7 {
+    transform: rotate(270deg) translate(calc(50vw - 50px)) rotate(-270deg);
+  }
+  .main-centered-img8 {
+    transform: rotate(315deg) translate(calc(50vw - 50px)) rotate(-315deg);
+  }
+  .main-centered-img9 {
+    transform: rotate(360deg) translate(calc(50vw - 50px)) rotate(-360deg);
+  }
+}
+
+/* Media Query for Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .main {
+    width: 100px;
+    height: 100px;
+  }
+
+  .main-centered-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /* Adjust the positioning for tablets */
+  .main-centered-img1 {
+    transform: rotate(0deg) translate(calc(50vw - 100px)) rotate(0deg);
+  }
+  .main-centered-img2 {
+    transform: rotate(45deg) translate(calc(50vw - 100px)) rotate(-45deg);
+  }
+  .main-centered-img3 {
+    transform: rotate(90deg) translate(calc(50vw - 100px)) rotate(-90deg);
+  }
+  .main-centered-img4 {
+    transform: rotate(135deg) translate(calc(50vw - 100px)) rotate(-135deg);
+  }
+  .main-centered-img5 {
+    transform: rotate(180deg) translate(calc(50vw - 100px)) rotate(-180deg);
+  }
+  .main-centered-img6 {
+    transform: rotate(225deg) translate(calc(50vw - 100px)) rotate(-225deg);
+  }
+  .main-centered-img7 {
+    transform: rotate(270deg) translate(calc(50vw - 100px)) rotate(-270deg);
+  }
+  .main-centered-img8 {
+    transform: rotate(315deg) translate(calc(50vw - 100px)) rotate(-315deg);
+  }
+  .main-centered-img9 {
+    transform: rotate(360deg) translate(calc(50vw - 100px)) rotate(-360deg);
+  }
+}
+
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1024px) {
+  .main {
+    width: 120px;
+    height: 120px;
+  }
+
+  .main-centered-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  /* Adjust the positioning for laptops and desktops */
+  .main-centered-img1 {
+    transform: rotate(0deg) translate(calc(50vw - 300px)) rotate(0deg);
+  }
+  .main-centered-img2 {
+    transform: rotate(45deg) translate(calc(50vw - 300px)) rotate(-45deg);
+  }
+  .main-centered-img3 {
+    transform: rotate(90deg) translate(calc(50vw - 300px)) rotate(-90deg);
+  }
+  .main-centered-img4 {
+    transform: rotate(135deg) translate(calc(50vw - 300px)) rotate(-135deg);
+  }
+  .main-centered-img5 {
+    transform: rotate(180deg) translate(calc(50vw - 300px)) rotate(-180deg);
+  }
+  .main-centered-img6 {
+    transform: rotate(225deg) translate(calc(50vw - 300px)) rotate(-225deg);
+  }
+  .main-centered-img7 {
+    transform: rotate(270deg) translate(calc(50vw - 300px)) rotate(-270deg);
+  }
+  .main-centered-img8 {
+    transform: rotate(315deg) translate(calc(50vw - 300px)) rotate(-315deg);
+  }
+  .main-centered-img9 {
+    transform: rotate(360deg) translate(calc(50vw - 300px)) rotate(-360deg);
+  }
+}

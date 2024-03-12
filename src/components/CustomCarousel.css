@@ -1,0 +1,64 @@
+.width-img {
+  width: 100% !important;
+  height: 35rem !important;
+  object-fit: contain !important;
+}
+
+.heaight-img {
+  height: 35rem;
+}
+
+.react-multi-carousel-item {
+  width: 345px !important;
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button.rec-dot {
+  border-radius: 10px;
+  width: 25px;
+}
+
+.rec-dot_active {
+  background-color: rgb(219, 219, 219) !important;
+  box-shadow: 0 0 1px 3px rgb(219, 219, 219) !important;
+}
+.rec-dot:focus,
+.rec-dot:hover {
+  box-shadow: 0 0 1px 3px rgb(219, 219, 219) !important;
+}
+.rec-dot_active:focus,
+.rec-dot_active:hover {
+  background-color: rgb(219, 219, 219) !important;
+  box-shadow: 0 0 1px 3px rgb(219, 219, 219) !important;
+}
+
+.rec-arrow {
+  background-color: rgb(219, 219, 219) !important;
+  transition: all 0.3s ease;
+  font-size: 1.1rem !important;
+  color: white !important;
+  width: 1.9rem !important;
+  height: 1.9rem !important;
+  min-width: 1.9rem !important;
+  line-height: 1.9rem !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* .rec-arrow:hover:not(:disabled) {
+  transform: scale(1.2);
+} */
+
+@media (max-width: 768px) {
+  .rec-arrow {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
